@@ -1,0 +1,37 @@
+@layer components{
+  .card{
+    @apply flex flex-col h-full gap-4 bg-white rounded-sm shadow-lg;
+  }
+
+  .card-img{
+    @apply w-full h-[250px] object-cover rounded-t-sm;
+  }
+
+  /* card content  */
+    .card-content-container{
+      @apply px-4 pt-2 pb-8;
+    }
+
+    /* eyebrow  start */
+      .card-eyebrow{
+        @apply flex justify-between;
+      }
+
+      .card-title{
+        @apply text-xl font-medium;
+      }
+
+      .card-links-container{
+        @apply flex items-center gap-2;
+      }
+
+      .card-link{
+        @apply focus:scale-[1.15] hover:scale-[1.15] duration-300;
+      }
+    /* eyebrow end */
+
+    .card-description{
+      @apply mt-2 text-sm sm:text-base;
+    }
+  /* card content end */
+}

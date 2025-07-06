@@ -1,4 +1,5 @@
 @import url('./components/container.css');
+@import url('./components/projectCard.css');
 
 @tailwind base;
 @tailwind components;

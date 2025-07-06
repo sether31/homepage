@@ -1,9 +1,9 @@
 @layer components{
   .container-xl{
-    @apply w-full mx-auto max-w-7xl;
+    @apply w-full p-4 mx-auto max-w-7xl;
   }
 
   .container-lg{
-    @apply w-full max-w-4xl mx-auto;
+    @apply w-full max-w-4xl p-4 mx-auto;
   }
 }
